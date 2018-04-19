@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example2017.android.animalgame.MainActivity">
+
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:background="@drawable/donkey"
+        android:id="@+id/donkey" />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:id="@+id/monkey"
+        android:background="@drawable/monkey"
+        android:layout_toRightOf="@+id/donkey"
+        />
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:text="cat"
+        android:background="@drawable/cat"
+        android:id="@+id/cat"
+        android:layout_toRightOf="@+id/monkey"
+        />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:text="hen"
+        android:id="@+id/hen"
+        android:layout_below="@+id/donkey"
+        />
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:text="hourse"
+        android:id="@+id/hourse"
+        android:layout_below="@+id/donkey"
+        android:layout_toRightOf="@+id/hen"
+        />
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:text="hourse"
+        android:id="@+id/elephant"
+        android:layout_below="@+id/donkey"
+        android:layout_toRightOf="@+id/hourse"
+        />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/crocodile"
+        android:id="@+id/crocodile"
+        android:layout_below="@+id/hen"
+        />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/dog"
+        android:id="@+id/dog"
+        android:layout_below="@+id/hen"
+        android:layout_toRightOf="@+id/crocodile"
+
+        />
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/rabbit"
+        android:id="@+id/rabbit"
+        android:layout_below="@+id/hen"
+        android:layout_toRightOf="@+id/dog"
+
+        />
+</RelativeLayout>
+</ScrollView>
